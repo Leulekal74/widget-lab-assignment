@@ -25,8 +25,6 @@ class MainScreen extends StatefulWidget {
 
 class _MainScreenState extends State<MainScreen> {
   int _selectedIndex = 0;
-
-  // Final screen list including the newly detailed FavoritesScreen
   static const List<Widget> _screens = [
     HomeScreen(),
     FavoritesScreen(),
@@ -57,7 +55,6 @@ class _MainScreenState extends State<MainScreen> {
   }
 }
 
-// --- HOME SCREEN (SLIDE 23) ---
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
@@ -76,8 +73,6 @@ class HomeScreen extends StatelessWidget {
     );
   }
 }
-
-// --- DETAILS SCREEN (SLIDE 24) ---
 class DetailsScreen extends StatelessWidget {
   const DetailsScreen({super.key});
 
@@ -95,7 +90,6 @@ class DetailsScreen extends StatelessWidget {
   }
 }
 
-// --- FAVORITES SCREEN (SLIDE 25) ---
 class FavoritesScreen extends StatelessWidget {
   const FavoritesScreen({super.key});
 
@@ -107,7 +101,6 @@ class FavoritesScreen extends StatelessWidget {
   }
 }
 
-// --- PROFILE SCREEN (LAB 1 REUSE) ---
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
 

@@ -76,7 +76,6 @@ class CatalogScreen extends StatelessWidget {
           ),
           itemBuilder: (context, index) {
             final product = products[index];
-            // 3. Card UI & Interaction (Slide 36)
             return Card(
               color: product.color.withValues(alpha: 0.1),
               child: InkWell(
